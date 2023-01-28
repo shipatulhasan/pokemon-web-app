@@ -6,33 +6,12 @@ const get_type = gql`
 query pokemon($name: String!) {
   pokemon(name: $name) {
     id
-    name
-    base_experience
-    stats{
-      base_stat
-      stat {
-        name
-      }
-    }
     types {
       type {
         name
       }
     }
-    weight
-    height
-    abilities {
-      ability {
-        name
-      }
-    }
-    moves {
-      move {
-        name
-      }
-    }
-    message
-    status
+    
   }
 }
 `;
