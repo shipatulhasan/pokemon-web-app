@@ -31,18 +31,21 @@ const Pokemon = () => {
 
   return (
     <>
-  <div className="py-20 bg-[url('/asset/Background.png')] relative overflow-hidden">
-    <div className="absolute h-full w-full inset-0 bg-[url('/asset/Texture.png')]" />
+  <div className="py-20 bg-[url('/asset/Background.png')] relative overflow-hidden bg-cover bg-center bg-no-repeat z-10">
+    <div className="absolute h-full w-full inset-0 bg-[url('/asset/Texture.png')] -z-0" />
+    <div className="z-10 relative pb-16">
+      <Image src='/asset/Logo.png' width={265} height={96} alt="logo" className="mx-auto" />
+    </div>
 
-      <div className="pokemon-container px-2 flex overflow-x-scroll overflow-y-hidden md:grid md:grid-cols-5 gap-5 max-w-7xl mx-auto">
+      <div className="pokemon-container px-2 pb-10 flex overflow-x-scroll overflow-y-hidden md:grid md:grid-cols-5 gap-5 max-w-7xl mx-auto">
         {pokes.map((poke) => (
           <PokemonCard poke={poke} key={poke.id} />
         ))}
       </div>
   </div>
-      <div className="flex gap-2">
+      <div className="flex gap-3">
       <img src='/asset/Left.png' className="h[100vh] w-16"  />
-      <div className="flex-1 max-w-7xl mx-auto ">
+      <div className="flex-1 max-w-7xl mx-auto py-20">
 
         <div className="relative ">
           <h1 className="text-5xl text-center py-20 z-10 text-deep-blue font-bold">

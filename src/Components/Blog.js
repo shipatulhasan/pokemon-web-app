@@ -2,10 +2,9 @@ import Image from "next/image";
 
 const Blog = () => {
     return (
-        <div>
-            <div className="grid grid-cols-2 gap-6 text-sm text-justify">
+        <div className="grid grid-cols-2 gap-5 text-sm text-justify">
           <div className="space-y-4">
-            <div className="flex gap-6">
+            <div className="flex gap-5">
               <div className="space-y-4">
                 <p className="text-justify">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -13,7 +12,7 @@ const Blog = () => {
                   iusto, dolorem dolores quisquam corrupti distinctio aut sunt,
                   voluptas iure cumque ipsum eum numquam.
                 </p>
-                <div className="flex gap-6">
+                <div className="flex gap-5">
                   <p className="text-justify">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Quam error quisquam corporis deserunt cum dolores veniam
@@ -21,7 +20,7 @@ const Blog = () => {
                     dolores veniam labore! Esse, sed eius.
                   </p>
 
-                  <Image src="/asset/Image03.png" width={200} height={200} alt="pokemon" />
+                  <Image src="/asset/Image04.png" width={200} height={200} alt="pokemon" />
                 </div>
                 <p>
                   Lorem ipsum dolor sit amet consectetur. Tincidunt at cras
@@ -34,7 +33,7 @@ const Blog = () => {
                 </p>
               </div>
               <div className="flex-shrink-0 space-y-5">
-                <Image src="/asset/Image01.png" width={200} height={200} alt="pokemon" />
+                <Image src="/asset/Image03.png" width={200} height={200} alt="pokemon" />
                 <Image src="/asset/Image02.png" width={200} height={200} alt="pokemon" />
               </div>
             </div>
@@ -56,6 +55,8 @@ const Blog = () => {
               sed lobortis amet eget sed donec.At a enim parturient id.
               Suspendisse ullamcorper fermentum accumsan diam tellus. Nibh
               pretium ultrices scelerisque dolor at etiam lectus gravida sed.
+              Suspendisse ullamcorper fermentum accumsan diam tellus. Nibh
+              pretium ultrices scelerisque dolor at etiam lectus gravida sed.
             
             </p>
           </div>
@@ -64,8 +65,8 @@ const Blog = () => {
               <p>
               Lorem ipsum dolor sit amet consectetur. Risus cursus nibh elementum ornare a aliquet ac. Feugiat scelerisque ultrices tempor facilisi tempus risus nunc. Proin quis morbi posuere nisl etiam scelerisque. Proin pretium gravida semper ut erat nisi. Pulvinar ac mattis porta amet et. Nisl urna non fames felis leo. Vitae pulvinar sed viverra .
               </p>
-              <div className="flex gap-6">
-                <Image src="/asset/Image03.png" width={200} height={200} alt="pokemon" />
+              <div className="flex gap-5">
+                <Image src="/asset/Image05.png" width={200} height={200} alt="pokemon" />
                 <p>
                   Lorem ipsum dolor sit amet consectetur. Turpis integer massa
                   consectetur sed enim quis viverra. Vestibulum eu nibh dolor
@@ -79,8 +80,8 @@ const Blog = () => {
                   semper sed duis feugiat mi.Ante consectetur id congue
                 </p>
               </div>
-              <div className="flex gap-6">
-                <Image src="/asset/Image03.png" width={200} height={200} alt="pokemon" />
+              <div className="flex gap-5">
+                <Image src="/asset/Image01.png" width={200} height={200} alt="pokemon" />
                 <p>
                   Lorem ipsum dolor sit amet consectetur. Turpis integer massa
                   consectetur sed enim quis viverra. Vestibulum eu nibh dolor
@@ -110,7 +111,6 @@ const Blog = () => {
               </p>
             </div>
           </div>
-        </div>
         </div>
     );
 };
