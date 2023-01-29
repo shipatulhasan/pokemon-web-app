@@ -43,4 +43,13 @@ font-family: 'Ubuntu', sans-serif;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+progress::-webkit-progress-bar {
+  background: #D9D9D9;
+  border-radius: 20px;
+
+}
+progress::-webkit-progress-value {
+  border-radius: 20px;
+  background: #2B73B9;
+}
 
