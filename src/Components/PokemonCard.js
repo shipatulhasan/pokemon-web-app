@@ -31,8 +31,8 @@ const PokemonCard = ({poke}) => {
     return (
       <Link href={`/${poke.name}`} className="flex-shrink-0 relative space-y-4 bg-white rounded pokemon-card z-10">
 
-          <div className="bg-ash p-3 rounded m-3 mb-0">
-            <p>{poke.id.toString().length>1 ? '#0': '#00'}{poke.id}</p>
+          <div className="bg-[#F2F2F2] p-3 rounded m-3 mb-0 ">
+            <p className="text-sm">{poke.id.toString().length>1 ? '#0': '#00'}{poke.id}</p>
             {/* <img src={poke.image} width={215} height={215}  alt="" /> */}
             <Image src={poke.image} alt={poke.name}  width={215} height={215} />
           </div>
